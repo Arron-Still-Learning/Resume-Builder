@@ -1,0 +1,148 @@
+:root {
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-secondary-black: #1e1e1e;
+  --clr-primary: #fe5a1d;
+  --clr-secondary: #0954b6;
+  --clr-border: #aaa;
+  --clr-body: #eae9e9;
+  --font-primary: "Inria", sans-serif;
+  --easeVertical: cubic-bezier(0.57, 0.04, 0.18, 1.06);
+}
+
+/* forget.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.forget-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sec-forget {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.sec-forget-header h2 {
+  margin: 0 0 30px;
+  color: #01acf3;
+  text-align: center;
+}
+
+.forget-form label {
+  display: block;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.forget-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.sec-forget-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec-forget-btn .forget, .back-btn {
+  background-color: #01acf3;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn {
+ background-color: #AFB9C8;
+}
+
+.back-btn a {
+ color: #fff;
+}
+/* reset.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.reset-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sec-reset {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.sec-reset-header h2 {
+  margin: 0 0 1rem;
+  color: #01acf3;
+  text-align: center;
+}
+
+.reset-form label {
+  display: block;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.reset-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.sec-reset-btn {
+  text-align: center;
+}
+
+.sec-reset-btn button {
+  background-color: #01acf3;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font and base styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e8f0f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Main content container */
+.main-content {
+  /*display: flex;*/
+  width: 210mm;
+  /* A4 width */
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 296mm;
+}
+
+/* Left section styles */
+.left-section {
+  padding-top: 3mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  float: left;
+  clear: left;
+  height: 100%;
+  background-color: #34495e;
+  width: 25%;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.profile .image img {
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid #2ecc71;
+  /* Green border */
+}
+
+.name {
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.career {
+  font-size: 13px;
+  color: #2ecc71;
+  font-weight: 700;
+}
+
+.main-title {
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ecf0f1;
+  border-bottom: 2px solid #2ecc71;
+  padding-bottom: 5px;
+}
+
+.personal-info ul,
+.skills-section ul,
+.languages ul {
+  list-style: none;
+}
+
+.personal-info li,
+.languages li {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+.personal-logo {
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+}
+
+/* Skills section styles */
+.skills-section .skill-title {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Right section styles */
+.right-section {
+  width: 75%;
+  height: 100%;
+  background-color: #ecf9f3;
+  float: right;
+  padding-top: 3mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+}
+
+.right-main-content {
+  margin-left: 20px;
+}
+
+.right-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #34495e;
+  font-weight: 700;
+  border-bottom: 2px solid #2ecc71;
+  padding-bottom: 5px;
+}
+
+.para {
+  color: #666;
+  font-size: 10px;
+}
+
+.timeline {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.left-tl-content,
+.right-tl-content {
+  width: 50%;
+}
+
+.left-tl-content .tl-title {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.tl-title-2 {
+  font-size: 10px;
+  color: #2ecc71;
+}
+
+.project {
+  margin-bottom: 15px;
+}
+
+.project .tl-title {
+  font-size: 12px;
+  color: #34495e;
+  font-weight: 600;
+}
+
+.interests ul {
+  list-style: none;
+  margin-top: 5px;
+}
+
+.interests li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #34495e;
+}
+
+.interests ul {
+  columns: 2;
+  /* Split interests into two columns */
+}
+
+.change-button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.change-button:hover {
+  background-color: #0056b3;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

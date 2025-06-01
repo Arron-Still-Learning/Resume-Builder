@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Inria";
+  font-weight: 400;
+  src: url("../fonts/Inria_Sans/InriaSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Inria";
+  font-weight: 700;
+  src: url("../fonts/Inria_Sans/InriaSans-Bold.ttf");
+}
+/* 
+@font-face {
+  font-family: 'NotoSansCJKjp';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/NotoSansCJKjp/NotoSansCJKjp-Regular.otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansCJKjp';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/NotoSansCJKjp/NotoSansCJKjp-Medium.otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansCJKjp';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/NotoSansCJKjp/NotoSansCJKjp-Bold.otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/Montserrat/Montserrat-Medium.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/NotoSansJP/NotoSansJP-Regular.otf');
+  font-display: swap;
+} */

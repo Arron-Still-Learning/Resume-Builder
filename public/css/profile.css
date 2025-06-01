@@ -1,0 +1,132 @@
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 9.5% 0; */
+  /* height: 100%; */
+  height: 89vh;
+}
+
+.sec-profile {
+  width: 100%;
+  max-width: 420px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background: var(--clr-white);
+}
+
+.contact {
+  max-width: 750px;
+  margin-top: 90px;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.contact-right-side,
+.contact-left-side {
+  width: 45%;
+}
+
+.sec-profile-header h2 {
+  /* margin: 0 0 30px; */
+  color: #01acf3;
+  text-align: center;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-picture {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.profile-picture img {
+  width: 60px;
+  height: 60px;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+.upload-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--clr-primary);
+  border-radius: 5px;
+  color: var(--clr-primary);
+  font-size: 1rem;
+  background-color: var(--clr-white);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.profile-form label {
+  display: block;
+  margin: 0.5rem 0;
+  color: var(--clr-black);
+}
+
+.profile-form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--clr-body);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* .input-form {
+  margin-bottom: 1rem;
+} */
+
+input::placeholder {
+    font-size: 14px;
+}
+
+textarea {
+  resize: none;
+}
+
+.sec-profile-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.sec-profile-btn .update-btn, .back-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #01acf3;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn {
+  background-color: #AFB9C8;
+}
+
+.sec-profile-btn a {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.validation-message {
+    font-size: 12px;
+}

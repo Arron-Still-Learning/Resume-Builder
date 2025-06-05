@@ -22,7 +22,7 @@ class ResumeRequest extends FormRequest
             'img' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'designation' => 'nullable|string|max:40',
             'objective' => 'nullable|string|max:255',
-            'skill_name.*' => 'nullable|string|max:15',
+            'skill_name.*' => 'nullable|string|max:50',
             'skill_level.*' => 'nullable|string|in:Beginner,Intermediate,Advanced,Expert,Master',
             'institution.*' => 'nullable|string|max:50',
             'degree.*' => 'nullable|string|max:50',
@@ -74,7 +74,7 @@ class ResumeRequest extends FormRequest
             'objective.max' => 'Objective cannot exceed 255 characters.',
 
             'skill_name.*.string' => 'Skill name must be a string.',
-            'skill_name.*.max' => 'Skill name cannot exceed 15 characters.',
+            'skill_name.*.max' => 'Skill name cannot exceed 50 characters.',
 
             'skill_level.*.string' => 'Skill level must be a string.',
             'skill_level.*.in' => 'Skill level must be one of: Beginner, Intermediate, Advanced, Expert, Master.',

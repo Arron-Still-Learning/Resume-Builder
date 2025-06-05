@@ -31,8 +31,6 @@ A simple Laravel-based web application that allows users to build, preview, and 
 ### 👀 Resume Preview
 ![Preview](screenshots/preview_template_page.png)
 
-
-
 ---
 
 ## ⚙️ Installation

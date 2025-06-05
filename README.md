@@ -16,19 +16,19 @@ A simple Laravel-based web application that allows users to build, preview, and 
 
 ## 🖼️ Screenshots
 
-### 🏠 Homepage
+###  Homepage
 ![Form Page](screenshots/home_page.png)
 
-### 🏠 Login / Form
+###  Login / Form
 ![Login Page](screenshots/login_page.png)
 
-### 🏠 Data Insert Resume / Form
+###  Data Insert Resume / Form
 ![Data Insert Page](screenshots/data_insert_page.png)
 
-### 🏠 Choose Template
+###  Choose Template
 ![Choose Template Page](screenshots/choose_template_page.png)
 
-### 👀 Resume Preview
+###  Resume Preview
 ![Preview](screenshots/preview_template_page.png)
 
 ---
